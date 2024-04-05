@@ -18,23 +18,23 @@ source-code: https://github.com/CollectionBuilder/cb-oralhistory
 # SITE SETTINGS
 #
 # title of site appears in banner
-title: cb-oralhistory
+title: Tacoma Community History Project
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Prototype for working with Oral History as Data items in CollectionBuilder
+tagline: Oral histories created by students enrolled in "Doing Community History" at UW Tacoma
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "CB-OHD is a mix of CollectionBuilder-CSV and Oral History as Data (OHD)."
+description: "Collection of student-created oral histories for the University of Washington Tacoma."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
 keywords: oral histories;digital collections
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
-author: dcnb
+author: erika-b
 
 ##########
 # COLLECTION SETTINGS
 #
 # Set the metadata for your collection (the name of the CSV file in your _data directory that describes the objects in your collection) 
 # Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
-metadata: demo-ohd-metadata 
+metadata: tchp
 # page generation settings [optional!]
 # [optional: only used if you need to tweak CB defaults or generate from more than one data file]
 # page_gen:
@@ -50,8 +50,8 @@ metadata: demo-ohd-metadata
 #   Enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
 #   To remove the branding, comment out these values, or delete them. 
 #
-organization-name: "Center for Digital Inquiry and Learning (CDIL)"
-organization-link: https://cdil.lib.uidaho.edu/
+organization-name: "University of Washington Tacoma Library"
+organization-link: https://www.tacoma.uw.edu/library
 organization-logo-banner: https://cdil.lib.uidaho.edu/storying-extinction/assets/img/cdil.png
 organization-logo-nav: https://cdil.lib.uidaho.edu/assets/img/logo.png
 
