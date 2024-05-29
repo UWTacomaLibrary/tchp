@@ -4,4 +4,25 @@ layout: default
 custom-foot: js/map-js.html
 ---
 
-<div id="map"></div>
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    html, body, #map {
+        height: 100%;
+        width: 100%;
+    }
+    .leaflet-top .leaflet-control-zoom, .leaflet-control-layers{
+    display: none;
+}
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    
+    margin-top: 80px;
+}
+</style>
+<div id="map" style="position:fixed;"></div>
+
+<div style="z-index:1000; position:fixed; left: 5%; top:20%; width:370px">{% include homepage-box-left.html %}</div>
+
+<div style="z-index:1000; position:fixed; right: 5%; bottom:20%; width:370px">{% include homepage-box-right.html %}</div>
