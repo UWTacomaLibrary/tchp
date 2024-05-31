@@ -1,9 +1,9 @@
 color_class,color
-primary,
-secondary,
-success,
-info,
-warning,
-danger,
-light,
-dark,
+primary, #32006e
+secondary, #32006e
+success, #ffc700
+info, #ffc700
+warning, #ffc700
+danger, #ffc700
+light, 
+dark, 
