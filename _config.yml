@@ -20,12 +20,12 @@ source-code: https://github.com/erika-b/tchp
 # title of site appears in banner
 title: Tacoma Community History Project
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Oral histories created by students enrolled in "Doing Community History" at UW Tacoma
+tagline: Oral histories as documented by students enrolled in "Doing Community History" at UW Tacoma
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "Collection of student-created oral histories for the University of Washington Tacoma. "
+description: "Archive of student-collected oral histories (including audio and transcriptions), photographs, and subsequent research papers for the University of Washington Tacoma."
 # keywords, a short list of subjects describing the collection, separated by semicolon, to appear in rich markup
-keywords: oral histories;digital collections
+keywords: oral histories;digital collections;Tacoma;community history
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: erika-b
 
