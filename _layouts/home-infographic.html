@@ -3,30 +3,25 @@
 layout: default
 custom-foot: js/map-js.html
 ---
-{%- assign items = site.data[site.metadata] | where_exp: 'item','item.objectid' -%}
-<div class="row">
-
-  <div class="col-md-8">
-
-    {% include index/description.html %}
-    {% include feature/mini-map.html latitude="47.24294135125228" longitude="-122.48271066441751" %}
+<style>
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    html, body, #map {
+        height: 100%;
+        width: 100%;
+    }
+    .leaflet-top .leaflet-control-zoom, .leaflet-control-layers{
+    display: none;
+}
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
     
-  </div>
-  <div class="col-md-4">  
+    margin-top: 80px;
+}
+</style>
+<div id="map" style="position:fixed;"></div>
 
-    {% include index/time.html %}
+<div style="z-index:1000; position:fixed; left: 5%; top:20%; width:370px">{% include homepage-box-left.html %}</div>
 
-    {% include index/featured-terms.html field="subject" title="Top Subjects" btn-color="primary" %}
-
-    {% include index/featured-terms.html field="location" title="Locations" btn-color="outline-secondary" %}
-    
-    {% include index/objects.html %}
-
-  </div>
-  <div class="col-md-12">
-
-    {% include index/data-download.html %}
-
-  </div>
-
-</div>
+<div style="z-index:1000; position:fixed; right: 5%; bottom:20%; width:370px">{% include homepage-box-right.html %}</div>
