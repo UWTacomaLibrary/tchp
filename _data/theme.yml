@@ -106,8 +106,8 @@ bootswatch: # leave blank or comment out for plain bootstrap
 base-font-size: 1.2em
 text-color: "#191919"
 link-color: "#4b2e83"
-base-font-family: #  
-font-cdn: <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+base-font-family: 'Roboto', sans-serif;  
+font-cdn: <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
 # THEME ICONS [optional!]
 # default icons can be overridden or new icons can be added using "icons" object
