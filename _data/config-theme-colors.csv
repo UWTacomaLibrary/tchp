@@ -6,4 +6,5 @@ info,
 warning, 
 danger, 
 light,#fff9f9
-dark,#eeb696
+dark,
+cheeky,#eeb696
